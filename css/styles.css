@@ -1566,11 +1566,21 @@
 #blacksheep #alianza-lima {
   display: none;
 }
+#blacksheep #area-contenido{
+	position: absolute;
+    top: 50px;
+}
+#blacksheep #area-contenido1{
+	position: absolute;
+    top: 50px;
+}
 #blacksheep #universitario.active {
   display: block;
+  position: relative;
 }
 #blacksheep #alianza-lima.active {
   display: block;
+  position: relative;
 }
 @media screen and (max-width: 1024px) {
   #blacksheep #home #jugador-a {
@@ -1685,6 +1695,14 @@
       background-repeat: no-repeat;
       background-position: center top;
   }
+  #blacksheep #area-contenido{
+		position: absolute;
+	    top: 80px;
+	}
+	#blacksheep #area-contenido1{
+		position: absolute;
+	    top: 80px;
+	}
   #blacksheep #alianza-lima #section-procesadores .fondo-ali3 {
     background-size: auto 100%;
     background-position-x: 56%;
@@ -2170,7 +2188,7 @@
 }
 @media screen and (max-width: 480px) {
   #blacksheep {
-    margin: -30px 0 -60px 0;
+ 
   }
   #blacksheep .video-1 {
     height: 450px;
